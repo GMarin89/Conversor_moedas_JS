@@ -22,6 +22,8 @@ Contribuições são bem-vindas! Se você tiver sugestões de melhorias ou novas
 
 ## Contato
 
-Para mais informações, entre em contato:
-- [Seu Nome]([https://www.linkedin.com/in/seu-perfil](https://www.linkedin.com/in/wesleygmarin/))
-- wesley.giuliano@gmail.com
+Caso queira entrar em contato comigo:
+
+- 📧 E-mail: wesley.giuliano@gmail.com
+
+
