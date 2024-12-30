@@ -54,33 +54,36 @@ function changeCurrency() {
         currencyName.innerHTML = "Dólar Americano";
         currencyImg.src = "./assets/logo_eua.png";
         currencyImg.alt = "logo_EUA";
+        currencyImg.width = 50;
+        currencyImg.height = 50;
     }
 
     if (moedaDestino === "euro") {
         currencyName.innerHTML = "Euro";
-        currencyImg.src = "./assets/logo_euro.png"; // Certifique-se de ter essa imagem no diretório correto
-        currencyImg.alt = "logo_Euro";
+        currencyImg.src = "./assets/logo_euro.png";
+        currencyImg.width = 50;
+        currencyImg.height = 50;
     }
 
     if (moedaDestino === "libras") {
-        currencyName.innerHTML = "libras";
-        currencyImg.src = "./assets/libras_logo.png"; // Certifique-se de ter essa imagem no diretório correto
-        currencyImg.alt = "logo_Libras"
-        currencyImg.width = 100;
-        currencyImg.height = 70;
-        
-    }
-
-    if (moedaDestino === "ienes") {
-        currencyName.innerHTML = "Ienes";
-        currencyImg.src = "./assets/ienes_logo_.png"; // Certifique-se de ter essa imagem no diretório correto
-        currencyImg.alt = "logo_Ienes"
-        currencyImg.width = 60;
+        currencyName.innerHTML = "Libras"; 
+        currencyImg.src = "./assets/logo_libras.png"; 
+        currencyImg.alt = "logo_Libras"; 
+        currencyImg.width = 70;
         currencyImg.height = 60;
+
     }
 
-    convertValues()
-}
+        if (moedaDestino === "ienes") {
+            currencyName.innerHTML = "ienes";
+            currencyImg.src = "./assets/ienes_logo_.png"; // Certifique-se de ter essa imagem no diretório correto
+            currencyImg.alt = "logo_Ienes";
+            currencyImg.width = 60;
+            currencyImg.height = 60;
+        }
 
-currencySelect.addEventListener("change", changeCurrency);
-convertButton.addEventListener("click", convertValues);
+        convertValues()
+    }
+
+    currencySelect.addEventListener("change", changeCurrency);
+    convertButton.addEventListener("click", convertValues);
