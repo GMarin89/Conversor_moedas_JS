@@ -26,4 +26,12 @@ Caso queira entrar em contato comigo:
 
 - 📧 E-mail: wesley.giuliano@gmail.com
 
+  
+ <br>
+
+ ## Projeto Conversor de Moedas em JavaScript:
+
+
+ <img src = "https://raw.githubusercontent.com/GMarin89/Conversor_moedas_JS/refs/heads/main/assets/print_pg.jpg"/>
+
 
