@@ -8,6 +8,8 @@ function convertValues() {
 
     const dolarHoje = 6.19; // Taxa de câmbio para o dólar
     const euroHoje = 6.46; // Taxa de câmbio para o euro
+    const librasHoje = 7.8; // Taxa de câmbio para libras
+    const ienesHoje = 0.4; // Taxa de câmbio para ienes japonês
 
     const moedaDestino = currencySelect.value;
 
@@ -17,9 +19,19 @@ function convertValues() {
     if (moedaDestino === "dolar") {
         valorConvertidoFinal = valorEmReal / dolarHoje;
         simboloMoeda = "USD";
+
     } else if (moedaDestino === "euro") {
         valorConvertidoFinal = valorEmReal / euroHoje;
         simboloMoeda = "EUR";
+
+    } else if (moedaDestino === "libras") {
+        valorConvertidoFinal = valorEmReal / librasHoje;
+        simboloMoeda = "GBP";
+
+    } else if (moedaDestino === "ienes") {
+        valorConvertidoFinal = valorEmReal / ienesHoje;
+        simboloMoeda = "JPY";
+
     }
 
     valorASerConvertido.innerHTML = new Intl.NumberFormat("pt-BR", {
@@ -48,6 +60,23 @@ function changeCurrency() {
         currencyName.innerHTML = "Euro";
         currencyImg.src = "./assets/logo_euro.png"; // Certifique-se de ter essa imagem no diretório correto
         currencyImg.alt = "logo_Euro";
+    }
+
+    if (moedaDestino === "libras") {
+        currencyName.innerHTML = "libras";
+        currencyImg.src = "./assets/libras_logo.png"; // Certifique-se de ter essa imagem no diretório correto
+        currencyImg.alt = "logo_Libras"
+        currencyImg.width = 100;
+        currencyImg.height = 70;
+        
+    }
+
+    if (moedaDestino === "ienes") {
+        currencyName.innerHTML = "Ienes";
+        currencyImg.src = "./assets/ienes_logo_.png"; // Certifique-se de ter essa imagem no diretório correto
+        currencyImg.alt = "logo_Ienes"
+        currencyImg.width = 60;
+        currencyImg.height = 60;
     }
 
     convertValues()
