@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O Conversor de Moedas é uma aplicação web simples que permite converter valores de Real Brasileiro (BRL) para Dólar Americano (USD) e Euro (EUR). O projeto utiliza HTML, CSS e JavaScript para fornecer uma interface amigável e fácil de usar para a conversão de moedas.
+O Conversor de Moedas é uma aplicação web simples que permite converter valores de Real Brasileiro (BRL) para Dólar Americano (USD), Ienes (JPY), Libras (GBP) e Euro (EUR). O projeto utiliza HTML, CSS e JavaScript para fornecer uma interface amigável e fácil de usar para a conversão de moedas.
 
 ## Funcionalidades
 
